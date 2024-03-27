@@ -57,7 +57,7 @@ if (userPin === PinCode) {
         if (balance > Enteredammount) {
             const remainingbalance = balance - Enteredammount;
             console.log(chalk.green("Transaction Succesfully"));
-            console.log(chalk.blue("Your Remaining Balance Is :", remainingbalance));
+            console.log(chalk.bold("Your Remaining Balance Is :", remainingbalance));
         }
         else {
             console.log(chalk.red("Insufficient Balance"));
